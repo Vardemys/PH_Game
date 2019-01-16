@@ -1,5 +1,5 @@
 var app = {
-
+    // This is a game
     inicio : function(){
 
         velocidadX =0;
@@ -116,7 +116,7 @@ var app = {
 };
 
 if("addEventListener" in document){
-    document.addEventListener("DOMContentLoaded", function(){
+    document.addEventListener("deviceready", function(){
         app.inicio();
     }, false);
 }

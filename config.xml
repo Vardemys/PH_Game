@@ -2,11 +2,13 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Game!</name>
     <description>
-        Camera APP.
+        Game APP.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
     <content src="index.html" />
     <access origin="*" />
+        <plugin name="cordova-plugin-whitelist"/>
+    <plugin name="cordova-plugin-device-motion"/>
 </widget>
