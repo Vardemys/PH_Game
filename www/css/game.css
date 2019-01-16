@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    background-color: grey;
+    font-size: 18px;
+    font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+body.agitado{
+    background-color: red;
+}
+
+
+
+
+
+
